@@ -1,6 +1,6 @@
-# Parse General Transit Feed Specification (GTFS) Relationships operator
+# GTFS Relationships Analyzer Operator
 
-The Parse General Transit Feed Specification (GTFS) Relationships operator is a WireCloud operator that provides ...
+The gtfs relationship analyzer operator is a WireCloud operator that provides ...
 
 ## Build dependencies
 

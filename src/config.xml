@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="FIWARE" name="gtfs-relationship-analyzer" version="0.1.0">
+
+    <details>
+        <title>GTFS Relationship Analyzer</title>
+        <homepage>https://github.com/yclausen/gtfs-relationship-analyzer-operator</homepage>
+        <authors>Yvonne Clausen &lt;yvonne.clausen@fiware.org&gt;</authors>
+        <email>yvonne.clausen@fiware.org</email>
+        <image></image>
+        <smartphoneimage></smartphoneimage>
+        <description>The best project ever.</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <changelog>doc/changelog.md</changelog>
+        <doc>doc/userguide.md</doc>
+        <license>MIT</license>
+        <issuetracker>https://github.com/yclausen/gtfs-relationship-analyzer-operator/issues</issuetracker>
+    </details>
+
+    <wiring>
+        <inputendpoint name="GtfsTypesInput" type="text" label="Input for Gtfs Types (Shape, Agency, Station, Stop)" friendcode="list"/>
+        <outputendpoint name="shapeOutput" type="text" label="List of GtfsShape" description="" friendcode="entity-list"/>
+        <outputendpoint name="stationOutput" type="text" label="List of GtfsStation" description="" friendcode="entity-list"/>
+        <outputendpoint name="stopOutput" type="text" label="List of GtfsStop" description="" friendcode="entity-list"/>
+    </wiring>
+
+    <scripts>
+        <script src="js/main.js"/>
+    </scripts>
+
+</operator>

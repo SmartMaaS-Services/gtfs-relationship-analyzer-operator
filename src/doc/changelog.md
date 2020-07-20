@@ -1,7 +1,2 @@
-## v0.1.0 [Extra release info, e.g. release date]
-
-Initial version
-
-- change 1
-- change 2
-- ...
+## v0.1.0 [2020-07-20]
+- Update dependencies npm

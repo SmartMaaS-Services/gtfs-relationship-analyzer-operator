@@ -7,7 +7,7 @@ The GTFS Relationships Analyzer operator was created to visualize the data from 
 The operator was conceptualized on the outputs from the repository [vbb-rest-2-ngsi](https://github.com/SmartMaaS-Services/vbb-rest-2-ngsi).
 
 <p align="center">
-    <img src="docs/img/gtfs_relationship_analyzer.png" alt="Create Product License" width="450" height="340">
+    <img src="docs/img/gtfs_relationship_analyzer.png" alt="GTFS Relationships Analyzer Operator" width="450" height="340">
 </p>
 
 The GTFS Relationships Analyzer operator was created to visualize the data from the vbb-rest API interface in Wirecloud. 
@@ -18,7 +18,7 @@ a unified entity.
 ## Example structure Wirecloud Wiring
 
 <p align="center">
-    <img src="docs/img/example_usage_operator.png" alt="Create Product License" width="650" height="480">
+    <img src="docs/img/example_usage_operator.png" alt="Usage of the Operator" width="650" height="480">
 </p>
 
 ## Which widget to use for visualization

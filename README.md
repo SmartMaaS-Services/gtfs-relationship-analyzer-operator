@@ -2,7 +2,7 @@
 
 # GTFS Relationships Analyzer Operator
 
-The gtfs relationship analyzer operator is a [WireCloud operator]((http://wirecloud.readthedocs.org/en/latest/)).
+The gtfs relationship analyzer operator is a [WireCloud operator](http://wirecloud.readthedocs.org/en/latest/).
 The GTFS Relationships Analyzer operator was created to visualize the data from the vbb-rest API interface in Wirecloud. 
 The operator was conceptualized on the outputs from the repository [vbb-rest-2-ngsi](https://github.com/SmartMaaS-Services/vbb-rest-2-ngsi).
 
